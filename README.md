@@ -1,17 +1,17 @@
-# MonteCarloLocalization
-Monte Carlo Algorithm(Xt-1, ut, zt):
-	X_t = X ̅_t = Ф
-	For n=1 to N:
-		x_t^n = motion_update(u_t, x_(t-1)^n)
-		w_t^n = sensor_update(z_t  , x_t^n)
-		X ̅_t = X ̅_t + (x_t^n,w_t^n)
-            End
-	#Re- Sampling of the particles on the basis of the weights
-            For n=1 to N:
-		Draw x_t^n from X ̅_t with probability ∝ w_t^n
-		X_t= X_t + x_t^n
-	End
-	Return X_t
+# Monte Carlo Localization
+Monte Carlo Algorithm(Xt-1, ut, zt):\
+&nbsp;&nbsp;&nbsp;	X_t = X ̅_t = Ф\
+&nbsp;&nbsp;&nbsp;	For n=1 to N:\
+&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;	x_t^n = motion_update(u_t, x_(t-1)^n)\
+&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;	w_t^n = sensor_update(z_t  , x_t^n)\
+&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;	X ̅_t = X ̅_t + (x_t^n,w_t^n)\
+&nbsp;&nbsp;&nbsp;            End\
+&nbsp;&nbsp;&nbsp;	#Re- Sampling of the particles on the basis of the weights\
+ &nbsp;&nbsp;&nbsp;           For n=1 to N:\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Draw x_t^n from X ̅_t with probability ∝ w_t^n\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		X_t= X_t + x_t^n\
+&nbsp;&nbsp;&nbsp;	End\
+&nbsp;&nbsp;&nbsp;	Return X_t\
 
 Motion Update:
 As the robot moves for each time iteration, its position and orientation keeps on changing, therefore it is necessary that the particles also move the same distance and direction. Also we know the map of the environment, so we can use the odometry to find out the new position and orientation of particles in the map. It is to be noted that there will be some noise when it comes to odometry estimation. 
