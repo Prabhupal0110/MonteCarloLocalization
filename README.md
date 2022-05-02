@@ -25,4 +25,46 @@ NOTE: This part Re Sampling is yet to be implemented in the code, however the re
 
 
 #RESULTS:
+Iteration:  1
+Errors:  25.603993280308973
+Iteration:  2
+Errors:  13.065813822693489
+Iteration:  3
+Errors:  8.500059694407774
+Iteration:  4
+Errors:  9.314921704622229
+Iteration:  5
+Errors:  5.561024715550335
+Iteration:  6
+Errors:  4.253458916589124
+Iteration:  7
+Errors:  5.981728526489809
+Iteration:  8
+Errors:  5.758568050234015
+Iteration:  9
+Errors:  4.399428595062176
+Iteration:  10
+Errors:  6.888019455303352
+Iteration:  11
+Errors:  6.034441108578674
+Iteration:  12
+Errors:  4.899607317144078
+Iteration:  13
+Errors:  5.9036627180645755
+Iteration:  14
+Errors:  3.82114936628902
+Iteration:  15
+Errors:  5.84355294030965
+Iteration:  16
+Errors:  4.740471615850745
+Iteration:  17
+Errors:  5.735789231521912
+Iteration:  18
+Errors:  2.0434386235406348
+Iteration:  19
+Errors:  5.331134662299528
+Iteration:  20
+Errors:  1.969549367967016
+
+![alt text](https://github.com/Prabhupal0110/MonteCarloLocalization/blob/main/Capture.png)
 ![alt text](https://github.com/Prabhupal0110/MonteCarloLocalization/blob/main/Figure%202022-05-02%20123559%20(21).png)
