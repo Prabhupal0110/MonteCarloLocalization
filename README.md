@@ -18,6 +18,7 @@ As the robot moves for each time iteration, its position and orientation keeps o
 
 Sensor Update:
 Once the particles are moved (using odometry) as per the distance and turning angle of the actual robot, now for each particle, the probability is calculated of how accurate the robot would have sensed the obstacles given it is at the state of that particle, Now, this probability is assigned to each particle as weight w_t^n.
+
 Re Sampling:
 Now the N particles are again drawn randomly from the previous belief but with the probability proportional to w_t^n. As a result, the particles that are consistent with the readings of sensor are likely to be drawn more. 
 NOTE: This part Re Sampling is yet to be implemented in the code, however the result was verified by plotting particle with highest weight and found quite close to the actual robot position. (Results included in next part)
