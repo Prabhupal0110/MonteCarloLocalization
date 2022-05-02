@@ -66,5 +66,5 @@ Errors:  5.331134662299528
 Iteration:  20
 Errors:  1.969549367967016
 
-![alt text](https://github.com/Prabhupal0110/MonteCarloLocalization/blob/main/Capture.png)
+![alt text](https://github.com/Prabhupal0110/MonteCarloLocalization/blob/main/Capture.PNG) \\
 ![alt text](https://github.com/Prabhupal0110/MonteCarloLocalization/blob/main/Figure%202022-05-02%20123559%20(21).png)
